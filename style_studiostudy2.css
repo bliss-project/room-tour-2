@@ -1,0 +1,142 @@
+center {
+  text-align: center;
+  display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.container {
+  position: relative;
+  width: auto;
+    height: auto
+}
+
+.container img {
+    width: 100%;
+  height: 100%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+. container flip-card {
+  background-color: transparent;
+  width: 20%;
+  height: 20;
+  perspective: 1000px;
+position: absolute;
+         top: 0;
+         left: 0;
+         z-index: 1003
+}
+
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+
+.container .btn_window {
+  position: absolute;
+  top: 83%;
+  left: 43%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  padding: 13% 13%;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+    z-index: 1006;
+
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.container .btn_bed2 {
+  position: absolute;
+  top: 65%;
+  left: 14%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 15% 15%;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+    z-index: 1005;
+
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.container .btn_window2 {
+  position: absolute;
+  top: 38%;
+  left: 91.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12% 5%;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+    z-index: 1005;
+
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.container .btn_bath2 {
+  position: absolute;
+  top: 95%;
+  left: 61%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 3% 18%;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+    z-index: 1005;
+
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;

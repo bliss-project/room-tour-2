@@ -1,0 +1,77 @@
+<html>
+<head>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascension</title>    
+<style>
+ 
+body  {
+  background-image: url("sky.png");
+    background-size:cover
+} 
+    
+    .flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #0000;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #0000;
+  color: black;
+  transform: rotateY(180deg);
+}
+</style>
+</head>
+  <body>
+ <div>
+ <a href="sky2.html"> <img id="myimage" src="dot.png" style="width: 50%; height: 50%; margin-top: 50px; margin-left: 110px; position: static"></a>
+</div> 
+      
+<div style="margin-left: 40%">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="plane.png" style="width:200px;height:200px">
+    </div>
+    <div class="flip-card-back">
+      <h2>You have one chance to return to Bliss.</h2> 
+      <p>Return while you still can?</p> 
+         <a href="balcony.html">  <button style="background-color: white; cursor: pointer;">↩</button> </a>
+    </div>
+  </div>
+</div>
+    
+      </div>
+    </body>
+    </head>
+</html>

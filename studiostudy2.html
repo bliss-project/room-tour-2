@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio</title>
+    <link rel="stylesheet" type="text/css" href="style_studiostudy2.css">
+</head>
+<style>
+    
+     .flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  perspective: 1000px;
+position: absolute;
+         top: 0%;
+         left: 0%;
+         z-index: 1001
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: transparent;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #0000;
+  color: black;
+  transform: rotateY(180deg);
+}
+</style>
+    
+<body>
+   
+ <div align="center" style="margin-top: 0px">
+    <div class="container">
+ <img id="myimage" src="studiostudy.png">
+        <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    </div>
+    <div class="flip-card-back">
+      <img src="studiostudy2.gif">
+    </div>
+  </div>
+</div> 
+        
+  <div> 
+        
+    
+    <a href="window2.html"> <button class="btn_window2"></button> </a>
+      
+      <a href="studiobed2.html"> <button class="btn_bed2"></button> </a>
+    
+    <a href="bathdoor3.html"> <button class="btn_bath2"></button> </a>
+
+</div> 
+     </div>
+    </div>
+
+    <a href="index2.html"> <img id="myimage" src="mapembossed.jpg" style="width: 10%; height: 10%; margin-top: 50px; margin-left: 45%"></a>
+
+    </body>
+</html>

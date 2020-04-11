@@ -1,0 +1,127 @@
+.center {
+  text-align: center;
+  display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.container {
+  position: relative;
+  width: auto;
+    height: auto
+}
+
+.container img {
+    width: 100%;
+  height: 100%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+. container flip-card {
+  background-color: transparent;
+  width: 20%;
+  height: 20;
+  perspective: 1000px;
+position: absolute;
+         top: 0;
+         left: 0;
+         z-index: 1003
+}
+.container .btn_book {
+  position: absolute;
+  top: 91.5%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  padding: 3.5% 5%;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  z-index: 1001;
+
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+
+.container .btn_closet {
+  position: absolute;
+  top: 61%;
+  left: 6.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  padding: 20% 5%;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.container .btn_study {
+  position: absolute;
+  top: 66.5%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 15% 6%;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.container .btn_entry {
+  position: absolute;
+  top: 97%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 2% 11%;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
